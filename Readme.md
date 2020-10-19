@@ -4,7 +4,12 @@
 
 <hr>
 
-### We are using:
+### Some screenshots:
+[![Alt text](https://i.ibb.co/Y3V4x8n/Movie-Search.png)](https://ibb.co/470wHMv)
+
+<hr>
+
+### I'm using:
 
 - Swiper: 5.4.5
 - Eslint: 6.8.0,
