@@ -1,10 +1,12 @@
 # MovieSearch
 
+##### The application is for searching films and check there rating.
+
 #### You can try it [here](https://scandiweb-task-movie-search.netlify.app/).
 
 <hr>
 
-### Some screenshots:
+### Screenshot:
 [![Alt text](https://i.ibb.co/Y3V4x8n/Movie-Search.png)](https://ibb.co/470wHMv)
 
 <hr>
