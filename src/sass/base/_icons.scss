@@ -1,0 +1,18 @@
+.ico {
+  display: inline-block;
+}
+
+.ico_git {
+  cursor: pointer;
+  background-image: url('../img/github.svg');
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.ico__star {
+  background-image: url('../img/star.svg');
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}

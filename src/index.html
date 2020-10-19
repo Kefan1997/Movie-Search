@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieSearch</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <h1 class="logo">Movie Search</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper main__wrapper">
+        <div class="main__search">
+          <form class="form__search" id="search-form" action method="GET">
+            <div class="layout-2-column-search">
+              <div class="search-line">
+              <input
+                class="input__search"
+                id="search-text"
+                type="text"
+                name="search"
+                placeholder="Search"
+                value="Star Wars"
+              />
+              <button type="reset" class="button-reset"></button>  
+              </div>
+              <div class="movie-search__button">
+                <button type="submit" class="button button_search">
+                  Search
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="status-search"></div>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <p class="rs-school">
+          RS School 2020q1
+        </p>
+        <a href="https://github.com/Kefan1997" class="link-git">
+          <span class="ico ico_git"></span>
+          <span class="link-git__text">Oleg Rashynski</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

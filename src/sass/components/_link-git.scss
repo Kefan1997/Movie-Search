@@ -1,0 +1,39 @@
+.link-git {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  .link-git__text {
+    cursor: pointer;
+    color: $color-light;
+    padding-left: 10px;
+    @extend %font-add;
+    @include font($size: 1.6rem);
+    &:hover {
+      @extend %transition;
+      @include font($size: 1.7rem);
+      @include media-mobile-small {
+        @include font($size: 1.2rem);
+      }
+      @include media-mobile {
+        @include font($size: 1.4rem);
+      }
+    }
+    @include media-laptop {
+      @include font($size: 1.8rem);
+      margin-right: 20px;
+    }
+    @include media-tablet {
+      @include font($size: 1.6rem);
+      margin-right: 20px;
+    }
+    @include media-mobile {
+      @include font($size: 1.4rem);
+      margin-right: 10px;
+    }
+    @include media-mobile-small {
+      @include font($size: 1.2rem);
+      margin-right: 10px;
+    }
+  }
+}

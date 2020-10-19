@@ -1,0 +1,31 @@
+.button {
+  @extend %font-add;
+  @extend %transition;
+  @include font($size: 1.8rem);
+  padding: 11px 25px 13px;
+  cursor: pointer;
+  border-radius: 4px;
+  &_search {
+    color: $color-light;
+    background-color: $color-button-submit;
+    border: 1px solid $color-button-submit;
+    &:hover {
+      background-color: $color-additional;
+      border-color: $color-additional;
+    }
+  }
+}
+
+.button-reset {
+  background-image: url("../../src/img/delete.svg");
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  outline:none;
+}

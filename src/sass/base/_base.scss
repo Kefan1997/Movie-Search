@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    position:relative; 
+    min-height:100%;
+}
+
+body {
+    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+    @extend %font-prime;
+    height: 100%;
+}
+
+h1 {
+    @include font($size: 4.4rem, $height: 5.4rem);
+    @extend %font-add;
+}
+
+.space {
+    height: 20px;
+}

@@ -1,0 +1,226 @@
+@import '../../node_modules/swiper/css/swiper.min.css';
+.link-git .link-git__text:hover, .button {
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+.link-git .link-git__text, .input__search, .button, .rs-school, h1 {
+  font-family: "Orbitron", "Verdana", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+  height: 100%;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 5.4rem;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 5.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 5.4rem;
+}
+.rs-school {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+.button {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.8rem;
+  padding: 11px 25px 13px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button_search {
+  color: #ffffff;
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+}
+.button_search:hover {
+  background-color: #FF7549;
+  border-color: #FF7549;
+}
+
+.button-reset {
+  background-image: url("../../src/img/delete.svg");
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  width: 27px;
+  height: 27px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.ico {
+  display: inline-block;
+}
+
+.ico_git {
+  cursor: pointer;
+  background-image: url("../img/github.svg");
+  height: 30px;
+  width: 30px;
+}
+
+.ico__star {
+  background-image: url("../img/star.svg");
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.input__search {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-image: url(../img/search-icon.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+}
+
+.search-line {
+  width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.film__rating {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-git {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.link-git .link-git__text {
+  cursor: pointer;
+  color: #ffffff;
+  padding-left: 10px;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+.link-git .link-git__text:hover {
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #173A56;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-2-column-search {
+  display: flex;
+}
+
+.main__wrapper {
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #173A56;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

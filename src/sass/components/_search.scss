@@ -1,0 +1,20 @@
+.input__search {
+    @extend %font-add;
+    @include font($size: 1.8rem, $weight: normal);
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid $color-border-search;
+    border-radius: 4px;
+    background-color: $color-light;
+    background-image: url(../img/search-icon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+}
+
+.search-line {
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}

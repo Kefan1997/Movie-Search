@@ -1,0 +1,33 @@
+.logo {
+  color: $color-light;
+  @include font($size: 5.4rem);
+
+  @include media-mobile {
+    @include font($size: 3.2rem, $height: 4.2rem);
+  }
+}
+
+.rs-school {
+  color: $color-light;
+  @include font($size: 1.8rem);
+  @extend %font-add;
+  @include media-mobile {
+    @include font($size: 1.4rem);
+  }
+  @include media-laptop {
+    @include font($size: 1.8rem);
+    margin-left: 20px;
+  }
+  @include media-tablet {
+    @include font($size: 1.6rem);
+    margin-left: 20px;
+  }
+  @include media-mobile {
+    @include font($size: 1.4rem);
+    margin-left: 10px;
+  }
+  @include media-mobile-small {
+    @include font($size: 1.2rem);
+    margin-left: 10px;
+  }
+}
