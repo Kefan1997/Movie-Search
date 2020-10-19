@@ -1,4 +1,4 @@
-# MovieSearch
+# Task for Scandiweb: MovieSearch
 
 ##### The application is for searching films and check there rating.
 
